@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap");
+
 body {
   padding: 0;
   margin: 0;
@@ -72,7 +74,7 @@ header li:last-child {
   width: 208px;
   height: 47px;
   background-color: #ff555d;
-  margin: 47px 0px 0px 0px;
+  margin: 47px 0px 71px 0px;
   border: none;
   border-radius: 3px;
   font-family: "Heebo";
@@ -96,4 +98,101 @@ header li:last-child {
 
 .info-welcome img {
   margin-top: -29px;
+}
+
+.posts {
+  background: #ebf7fa;
+  height: 396px;
+}
+
+.posts article {
+  width: 418px;
+  height: 285px;
+  background-color: #FFFFFF;
+}
+
+.posts article:first-child {
+  margin-right: 20px;
+}
+
+.posts h3 {
+  width: 374px;
+  height: 85px;
+  font-family: "Heebo";
+  font-weight: 900;
+  font-size: 26px;
+  margin: 24px 23px 0px 23px;
+}
+
+.posts img {
+  width: 1px;
+  height: 21px;
+}
+
+.posts p {
+  width: 368px;
+  height: 117px;
+  font-family: "Heebo";
+  font-weight: 400;
+  font-size: 16px;
+  margin: 11px 23px 0px 23px;
+}
+
+.posts-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.posts-header .recent {
+  margin: 28px 0px 0px 148px;
+  font-family: "Heebo";
+  font-size: 22px;
+}
+
+.posts-header .view {
+  margin: 32px 148px 0px 0px;
+  font-family: "Heebo";
+  font-size: 16px;
+}
+
+.posts-header a {
+  text-decoration: none;
+  color: #00abd0;
+}
+
+.posts-header a:hover {
+  text-decoration: underline;
+}
+
+.posts-preview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.posts-published {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin: 17px 23px 0px 23px;
+}
+
+.posts-published div {
+  font-family: "Heebo";
+  font-size: 18px;
+}
+
+.posts-published img {
+  margin: 0px 26px 0px 26px;
 }
